@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHAMED SHOWQATH - SOFTWARE ENGINEER</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:black;
+        }
+
+        header {
+            background-color:burlywood;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 2em;
+        }
+        p{
+            color:white
+        }
+        
+
+        h2 {
+            color: white;
+        }
+        ul{
+            color:white;
+        }
+        h3{
+            color: white;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+        
+
+        footer {
+            background-color: burlywood;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body >
+
+    <header>
+        <h1>Mohamed Showqath N</h1>
+        <p>Software Engineer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a passionate software engineering student with a strong foundation in programming and problem-solving.
+            Currently, I am exploring various technologies to expand my skill set.
+        </p>
+    </section>
+    <hr>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C-programming</li>
+            <li>JAVA</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+    </section>
+     <hr>
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Garbage Vehicle Tracking System In Android</h3>
+            <p>Description of GTS. This application helps track the garbage vehicle while entering to their streets and send's a notification
+                to the users and user also able to share the feeback through the application.</p>
+        </div>
+
+        <div class="project">
+            <h3>Share The Meal</h3>
+            <p>Description . It is a website that contains a three module's (admin/food donor/food reciever),it helps to donate 
+                a food through this website.</p>
+        </div>
+    </section>
+    <hr>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: mshowqath@gmail.com</p>
+        <p>Phone:6382600597</p>
+        <p>GitHub: <a href="https://github.com/showqathmdcse">GitHub Profile</a></p>
+    </section>
+    <hr>
+
+    <footer>
+        &copy; Mohamed Showqath - Software Engineer
+    </footer>
+
+</body>
+</html>
